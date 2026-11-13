@@ -3,7 +3,7 @@
 ## Candidate
 - **Name:** srini2k03
 - **Assignment chosen:** A (Data)
-- **Time spent (honest estimate):** ~5h: ~2h writing the spec and plan, ~2h building with
+- **Time spent (honest estimate):** ~5h: ~1h writing the spec and plan, ~3h building with
   Claude Code and checking the results, ~1h reviewing the code for the walkthrough
 
 ## How to run
