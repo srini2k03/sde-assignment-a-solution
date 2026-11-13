@@ -9,3 +9,9 @@ data_large/
 reports/
 final_state.csv
 .pytest_cache/
+
+# Assignment A: PII key file generated next to the database, SQLite side files
+*.key
+*.db-journal
+*.db-wal
+*.db-shm
