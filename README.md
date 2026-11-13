@@ -52,8 +52,7 @@ is equally acceptable.
    - `AI_USAGE.md`: fill in the template provided
    - Exact setup and run commands that work from a clean clone
    - Tests, runnable with one command (for example `pytest`)
-3. Give read access to **`[[REVIEWER_HANDLES]]`** and email the repo link to
-   **`[[SUBMISSION_EMAIL]]`** before the deadline.
+3. Give the reviewers read access and email them the repo link before the deadline.
 
 Please **don't** publish your solution publicly, and **don't** commit generated data, `.env`
 files, or databases.
