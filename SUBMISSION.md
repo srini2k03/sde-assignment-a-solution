@@ -3,8 +3,8 @@
 ## Candidate
 - **Name:** srini2k03
 - **Assignment chosen:** A (Data)
-- **Time spent (honest estimate):** ~5h: ~1.5h writing the spec and plan, ~1.5h building with
-  Claude Code and checking the results, ~2h reviewing and understanding the code for the walkthrough
+- **Time spent (honest estimate):** ~5h: ~2h writing the spec and plan, ~2h building with
+  Claude Code and checking the results, ~1h reviewing the code for the walkthrough
 
 ## How to run
 ```bash
