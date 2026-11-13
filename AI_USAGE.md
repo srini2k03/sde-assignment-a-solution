@@ -5,7 +5,6 @@ skill. Honest answers are never held against you. Discovering undisclosed use is
 
 ## Tools used
 - **Claude Code** (Anthropic), used as a coding agent.
-- TODO(YOU): list any other AI tools you used, or delete this line.
 
 ## What I wrote or decided myself
 - **The specification.** I turned the assignment into a precise, phase-by-phase spec and
@@ -24,7 +23,6 @@ skill. Honest answers are never held against you. Discovering undisclosed use is
   earliest `call.initiated`.
 - **Test strategy.** An independent reference implementation checked byte-for-byte against the
   pipeline on several seeds, because grading diffs exact output on an unseen seed.
-- TODO(YOU): adjust this list so it contains only what you actually decided, and add anything you changed after reviewing the code.
 
 ## What I used them for
 Working from my spec, Claude Code:
@@ -47,4 +45,3 @@ Working from my spec, Claude Code:
 - **Fresh-clone run:** clone → install → generate → ingest drop 1 → ingest drop 2 → report →
   `pytest`. Re-ingesting confirmed nothing changes, and each report file was checked against the
   output contract.
-- TODO(YOU): describe how you reviewed the code yourself (e.g. read each module, traced one lead and one override through the database).

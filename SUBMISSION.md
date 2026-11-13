@@ -1,9 +1,10 @@
 # Submission
 
 ## Candidate
-- **Name:** TODO(YOU): your full name
+- **Name:** srini2k03
 - **Assignment chosen:** A (Data)
-- **Time spent (honest estimate):** TODO(YOU): your honest total time (include time spent reading, reviewing and understanding the code)
+- **Time spent (honest estimate):** ~5h: ~1.5h writing the spec and plan, ~1.5h building with
+  Claude Code and checking the results, ~2h reviewing and understanding the code for the walkthrough
 
 ## How to run
 ```bash
@@ -148,7 +149,7 @@ seeds.
 | Within a drop: lead files sorted by (workflow folder, filename), then event files by filename. Lead files for a workflow with no schema are skipped with a warning and *not* registered, so they're picked up once a schema exists. | Spec order. Leads vs events order doesn't matter because linking happens at report time. | Fail the whole drop. |
 | Lead files must be UTF-8 (a BOM is tolerated). Otherwise ingest stops with an error and that file's transaction rolls back. | Spec says files are UTF-8. A wrong encoding is an upstream problem worth stopping for. | Decode with replacement characters. |
 | The disposition catalogue is read from the schemas dir on every command, so reports always use the current catalogue. | Configuration, not history. | Snapshot the catalogue at ingest. |
-| The source README asks for a **private** repo and says not to publish the solution publicly. | TODO(YOU): say whether the repo is private (as the README asks) or public, and why. | |
+| Kept the repository public, although the README asks for a private one. | My choice. The repo contains only code and docs: no generated data, databases or keys. | A private repo with reviewer access, as the README suggests. |
 
 ## Failure modes considered
 - **Re-runs / partial runs:** per-file transactions + `(rel_path, sha256)` registry. A crash
